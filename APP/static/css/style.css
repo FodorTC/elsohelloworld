@@ -54,7 +54,7 @@ body {
 }
 
 .vertical-menu a {
-    background-color: #eee;
+    background-color: rgb(145, 253, 154);
     color: black;
     padding: 12px;
     text-decoration: none;
