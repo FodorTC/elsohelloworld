@@ -49,10 +49,6 @@ body {
     padding: 2em; 
 }
 
-.vertical-menu {
-    width: 200px;
-}
-
 .vertical-menu a {
     background-color: #eee;
     color: black;
