@@ -25,11 +25,11 @@ h1{ color:rgb(0, 30, 200); }
     background: deepskyblue;
 }
 
-.aside-1 {
+.bal {
     background: gold;
 }
 
-.aside-2 {
+.jobb {
     background: hotpink;
 }
 
@@ -39,9 +39,9 @@ h1{ color:rgb(0, 30, 200); }
 
 @media all and (min-width: 800px) {
     .main    { flex: 3 0px; }
-    .aside-1 { order: 1; } 
+    .bal { order: 1; } 
     .main    { order: 2; }
-    .aside-2 { order: 3; }
+    .jobb { order: 3; }
     .footer  { order: 4; }
 }
 
