@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <script src="{% static 'js/script.js' %}"></script>
-    <title>Title</title>
+    <title>Felvételi App</title>
 </head>
 <body>
+    <!--<h1>{{ cim }}</h1>-->
+    <h2>Felvételi eredmények</h2>
+    <p>OM azonosítód:</p>
+    <form method="POST">
+        {% csrf_token %}
+        <!--<textarea name="om" id="" cols="30" rows="1">72</textarea>-->
+        <input type="text" id="om" name="om">
     
-    <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit">
+
+    </form>
     
-    <input type="submit">
-  
 </body>
 </html>

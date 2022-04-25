@@ -4,5 +4,8 @@ from django.shortcuts import render
 
 def index(request):
     template='index.html'
-    context={}
+    if request.method == "POST":
+        print(request.POST["om"])
+    context={'cim':"_fodor__"}
     return render(request, template, context)
+
